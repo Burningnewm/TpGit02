@@ -6,6 +6,9 @@
     background-size: cover;
     z-index: -1;
 }
+.navbarNav{
+    text-align: center;
+}
 .bg-light {
     --bs-bg-opacity:0.5;
 }
@@ -14,4 +17,18 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5vw;
     justify-items: stretch;
+    padding-top: 10vh;
+    width: 80vw;
+    margin: auto;
+}
+.card{
+    
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.btn-primary{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+.btn-primary:hover{
+    rgba(255, 255, 255, 1)
 }
