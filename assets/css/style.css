@@ -6,9 +6,6 @@
     background-size: cover;
     z-index: -1;
 }
-.navbarNav{
-    text-align: center;
-}
 .bg-light {
     --bs-bg-opacity:0.5;
 }
@@ -35,4 +32,45 @@
     background-color: rgba(255, 255, 255, 1);
     color: black;
     border: transparent;
+}
+body{
+    background-color: lightslategrey;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color:gold;
+    height: 3rem;
+}
+h2{
+    text-align: center;
+    color: gold;
+    height: 2.5rem;
+}
+h3{
+    text-align: center;
+    color: gold;
+    height: 2rem;
+}
+h4{
+    text-align: center;
+    color: gold;
+    height: 1.5rem;
+}
+h5{
+    text-align: center;
+    color: gold;
+    height: 1rem;
+}
+.lion img{
+    width: 40%;
+}
+.girafe img{
+    width: 40%;
+}
+.zebre img{
+    width: 30%;
+}
+p{
+    color: linen;
 }
