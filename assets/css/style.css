@@ -77,3 +77,10 @@ p{
     color: black;
     padding: 3vh 0;
 }
+
+.ocean{
+    background-image: url(../img/téléchargement.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
