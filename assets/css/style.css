@@ -1,0 +1,17 @@
+.imageZoo {
+    background-image: url(../img/zoo.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.bg-light {
+    --bs-bg-opacity:0.5;
+}
+.linkCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5vw;
+    justify-items: stretch;
+}
