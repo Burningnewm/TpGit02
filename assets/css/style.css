@@ -33,10 +33,6 @@
     color: black;
     border: transparent;
 }
-body{
-    background-color: lightslategrey;
-    width: 100%;
-}
 h1{
     text-align: center;
     color:gold;
@@ -73,4 +69,10 @@ h5{
 }
 p{
     color: linen;
+}
+.savane{
+    background: url(../img/ok-savane-paysage-ouverture-pix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 }
