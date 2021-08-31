@@ -1,0 +1,58 @@
+.imageZoo {
+    background-image: url(../img/zoo.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.bg-light {
+    --bs-bg-opacity:0.5;
+}
+.linkCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5vw;
+    justify-items: stretch;
+}
+body{
+    background-color: lightslategrey;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color:gold;
+    height: 3rem;
+}
+h2{
+    text-align: center;
+    color: gold;
+    height: 2.5rem;
+}
+h3{
+    text-align: center;
+    color: gold;
+    height: 2rem;
+}
+h4{
+    text-align: center;
+    color: gold;
+    height: 1.5rem;
+}
+h5{
+    text-align: center;
+    color: gold;
+    height: 1rem;
+}
+.lion img{
+    width: 40%;
+}
+.girafe img{
+    width: 40%;
+}
+.zebre img{
+    width: 30%;
+}
+p{
+    color: linen;
+}
