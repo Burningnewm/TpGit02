@@ -18,6 +18,7 @@
     grid-gap: 5vw;
     justify-items: stretch;
     padding-top: 10vh;
+    padding-bottom: 10vh;
     width: 80vw;
     margin: auto;
 }
@@ -28,7 +29,10 @@
 .btn-primary{
     background-color: rgba(255, 255, 255, 0.5);
     color: black;
+    border: transparent;
 }
 .btn-primary:hover{
-    rgba(255, 255, 255, 1)
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    border: transparent;
 }
