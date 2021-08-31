@@ -20,8 +20,9 @@
     margin: auto;
 }
 .card{
-    
+    height: auto;
     background-color: rgba(255, 255, 255, 0.5);
+    color: black;
 }
 .btn-primary{
     background-color: rgba(255, 255, 255, 0.5);
@@ -46,6 +47,7 @@ h2{
     text-align: center;
     color: gold;
     height: 2.5rem;
+    padding: 3vh 0;
 }
 h3{
     text-align: center;
@@ -72,5 +74,6 @@ h5{
     width: 30%;
 }
 p{
-    color: linen;
+    color: black;
+    padding: 3vh 0;
 }
